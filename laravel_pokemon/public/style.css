@@ -1,0 +1,28 @@
+.player {
+    margin-bottom: 40px;
+    width: 100px;
+    resize: none;
+    text-align: center;
+}
+
+.desc {
+    width: 600px;
+    resize: none;
+    height: 200px;
+}
+
+.btns {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.playericon {
+    width: 100px;
+    padding-top: 10px;
+}
+
+#index-body {
+    background-image: url("img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
