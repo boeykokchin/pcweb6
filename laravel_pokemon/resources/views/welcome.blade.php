@@ -43,11 +43,12 @@
                 @endforeach
             </div>
             {{-- <div id="data"></div> --}}
+            {{-- {{ dd($players) }} --}}
             <div class="col-6">
                 <div class="spinner-border text-primary" id="spinner">
                     <span class="sr-only">Loading...</span>
                 </div>
-                @if(@isset($name))
+                @if($flag=@isset($name))
                 <h2>{{$name}}</h2>
                 <p>{{$desc->Description}}<br></p>
                 @else
